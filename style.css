@@ -93,3 +93,115 @@ article img {
     margin: 20px auto;
     border-radius: 12px;
 }
+
+
+/* Dandelion-Rose Homepage */
+
+.welcome {
+    margin: 30px auto 50px;
+}
+
+.welcome h2 {
+    color: #B98282;
+    font-size: 28px;
+}
+
+.welcome p {
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+.discover {
+    margin: 50px auto;
+}
+
+.discover h2 {
+    color: #1B4332;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Botanical feature cards */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.feature-card {
+    background-color: #FFFDF7;
+    border: 2px solid #A8B89F;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(27, 67, 50, 0.08);
+}
+
+.feature-card h3 {
+    color: #B98282;
+    font-size: 23px;
+}
+
+.feature-card p {
+    color: #1B4332;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.feature-card a,
+.our-story-preview a {
+    color: #1B4332;
+    font-weight: bold;
+}
+
+.feature-card a:hover,
+.our-story-preview a:hover {
+    color: #B98282;
+}
+
+/* Our Story preview */
+
+.our-story-preview {
+    background-color: #F3E9E4;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.our-story-preview h2 {
+    color: #B98282;
+}
+
+/* Smaller screens */
+
+@media (max-width: 650px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Make homepage card photographs uniform */
+.feature-card img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 15px auto;
+}
+
+
+/* Our Story Page */
+.story-content {
+    background-color: #FFFDF7;
+    border: 2px solid #A8B89F;
+    border-radius: 15px;
+    padding: 35px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.story-content p {
+    line-height: 1.9;
+}
